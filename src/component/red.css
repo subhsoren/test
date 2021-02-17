@@ -1,0 +1,33 @@
+.block {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  position: absolute;
+  color: #fff;
+  padding: 1rem 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: red;
+  bottom: 10%;
+  cursor: pointer;
+  border: none;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.hello {
+  position: absolute;
+  text-align: justify;
+  z-index: 1;
+  top: 5%;
+  left: 35%;
+}
